@@ -3,7 +3,7 @@
 with days as (
     {{dbt_utils.date_spine('day'
     , "DATE('01/01/2000','mm/dd/yyyy')"
-    , "DATE('01/01/2000','mm/dd/yyyy')"
+    , "DATE('08/05/2025','mm/dd/yyyy')"
     )
     }}
 ),
