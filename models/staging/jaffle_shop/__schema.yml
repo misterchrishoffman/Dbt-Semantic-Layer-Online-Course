@@ -2,8 +2,8 @@ version: 2
 
 sources:
   - name: jaffle_shop
-    database: raw
-    schema: new_jaffle_shop
+    database: pelagic-plexus-468013-t4
+    schema: jaffle_shop
     tables:
       - name: customers
       - name: orders
