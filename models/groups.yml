@@ -1,0 +1,13 @@
+groups:
+  - name: finance ##This refers to the finance team
+    owner: 
+      name: Firstname Lastname ##This is the person to contact if anything changes with one of the models.
+      email: finance@jaffleshop.com
+      slack: finance-data
+      github: finance-data-team
+  - name: product ## This refers to the product team
+    owner: 
+      email: product@jaffleshop.com
+      github: product-data-team
+
+      
