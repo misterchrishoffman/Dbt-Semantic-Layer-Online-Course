@@ -29,6 +29,9 @@ models:
           - unique
 
   - name: stg_products
+    access: protected
+    config: 
+      group: product
     description: Product (food and drink items that can be ordered) data with basic cleaning and transformation applied, one row per product.
     columns:
       - name: product_id
@@ -37,7 +40,11 @@ models:
           - not_null
           - unique
 
+
   - name: stg_supplies
+    access: protected
+    config:
+      group: product
     description: >
       List of our supply expenses data with basic cleaning and transformation applied.
 

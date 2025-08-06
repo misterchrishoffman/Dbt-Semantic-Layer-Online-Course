@@ -24,6 +24,7 @@ renamed as (
 
         ---------- properties
         (order_total / 100.0) as order_total,
+        {{ cents_to_dollars('order_total', '2') }} as order_total_jinja,
         (tax_paid / 100.0) as tax_paid,
 
         ---------- timestamps
